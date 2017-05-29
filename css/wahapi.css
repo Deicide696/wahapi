@@ -1,0 +1,25 @@
+.img-panel-left-home{
+	max-height: 320px;
+}
+
+@media (min-width: 1200px) {
+	.col-lg-12w{
+		width: 12%;
+		float: left;
+	}
+
+	.col-lg-offset-20 {
+		margin-left: 20%;
+	}
+}
+
+/*@media (min-width: 992px) {
+	.col-md-15w{
+		width: 15%;
+		float: left;
+	}
+
+	.col-md-offset-12-5 {
+		margin-left: 12.5%;
+	}
+}*/

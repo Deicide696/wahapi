@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/view.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/_form.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/create.php
+END
+_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/_search.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/index.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wahapi/!svn/ver/47/trunk/protected/views/users/default/admin.php
+END

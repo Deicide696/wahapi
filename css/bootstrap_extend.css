@@ -1,0 +1,222 @@
+/*
+* ---------------------------------------------------
+* Bootstrap extend by Cristian Pinilla
+* ---------------------------------------------------
+*/
+
+/*
+ * Navbar Style One (Integra)
+ */
+
+.navbar-style-one>li>a {
+	border-top: 2px solid white;
+	padding-top: 5px !important;
+	padding-bottom: 0px !important;
+}
+
+.nav>li>a{
+	padding: 5px 10px !important;
+}
+
+.navbar-style-one>.active>a{
+	border-top: 2px solid #ECECEC;
+	border-bottom: 4px solid #ff9400;
+	background-color: #F9F9FC !important;
+}
+
+.navbar-style-one a:hover {
+    color: #ff9400 !important;
+}
+
+.navbar-style-one>.active>a{
+	color:#555 !important;
+}
+
+/*
+ * Navbar White
+ */
+.navbar-white{
+	background-color: white;
+	border: 1px solid #e7e7e7;
+}
+
+/*
+ * Background Diagonal Lines (Hedaga)
+ */
+
+.bg-diag{
+	background-image: url('../images/bg-diag.png');
+}
+
+/*
+ * Background Diagonal Lines Transparent
+ */
+
+.bg-diag-transparent{
+	background-image: url('../images/bg-diag-transparent.png');
+}
+
+/*
+ * Images
+ */
+
+.img-semi-circle{
+	-webkit-border-top-left-radius: 30px;
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topleft: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+/*
+ * Layout
+ */
+.col-20{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.no-padding-left-right{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.no-padding{
+	padding: 0px !important;
+}
+
+/*
+ * Buttons
+ */
+
+/* Button transparent */
+.btn-transparent{
+	background-color: transparent;
+}
+
+
+/* Badges */
+
+/* Badge red */
+
+.badge-red{
+	background-color: #EC4040 !important;
+}
+
+/* Left vertical divider */
+.left-vertical-divider{
+	display: inline;
+	border-left: 2px solid #fff; 
+	padding-left: 10px;
+	width:1px; 
+	height:30px;
+}
+
+
+/*
+ * Colors
+ */
+
+ .white{
+ 	color: white !important;
+ }
+
+ /*
+  * Footer
+  */
+.footer {
+	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	/* Set the fixed height of the footer here */
+  	height: 25px;
+  	background-color: #f5f5f5;
+}
+
+/*------------------------------------------------------*/
+/*----------------------SLIDERS-------------------------*/
+/*------------------------------------------------------*/
+
+
+/*
+ * Boxed Thumbnail Slider
+ */
+
+/*#myCarousel .thumbnail {
+	margin-bottom: 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+}
+
+.carousel-control {
+	color:#fff;
+	top:40%;
+	color:#BFC5CA;
+	bottom:auto;
+	padding-top:4px;
+	width:30px;
+	height:30px;
+	text-shadow:none;
+	opacity:1;
+}
+
+.carousel-control:hover {
+	color: #f6901f;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+}
+
+.carousel-control.right {
+	left:auto;
+	right:-32px;
+}
+
+.carousel-control.left {
+	right:auto;
+	left:-32px;
+}
+
+.carousel-indicators {
+	bottom:-30px;
+}
+
+.carousel-indicators li {
+	border-radius:0;
+	width:10px;
+	height:10px;
+	background:#ccc;
+	border:1px solid #ccc;
+}
+
+.carousel-indicators .active {
+	width:12px;
+	height:12px;
+	background:#3276b1;
+	border-color:#3276b1;
+}*/
+
+
+/*------------------------------------------------------*/
+/*-----------------Thumbsnails Hover (test)-------------*/
+/*------------------------------------------------------*/
+
+#hover-thumbnails .thumbnail {
+    position:relative;
+    overflow:hidden;    
+}
+.caption-none {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 45%;
+    color:#fff !important;
+}
