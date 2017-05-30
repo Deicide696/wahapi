@@ -966,16 +966,18 @@ class UsersController extends Controller
 
 		$myId = Yii::app()->user->getState('userId');
 
-		$this->friendsRequest = self::getFriendRequests($myId);
-		$this->wallPostNotifications = self::getWallpostNotifications($myId);
-		$this->groupNotifications = self::getFeedGroupNotifications($myId);
-		$this->newGroupNotifications = self::getNewGroupNotifications($myId);
+        // Get All Notifications
+        self::getAllNotifications($myId);
 
 		// Get Profile Image
 		$profileImage = self::getProfileImage($myId);
 
+        //Get new message
+        $newMessage = Messages::model()->findAll(array("condition"=>"FK_receiver = $myId and has_read = 0"));
+
 		$this->render('//Gallery/index', array(
-			'profileImage' => $profileImage)
+			    'profileImage' => $profileImage,
+                "newMessage" => $newMessage,)
 		);
 	}
 

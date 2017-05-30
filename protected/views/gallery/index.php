@@ -3,7 +3,9 @@
         "profileImage" => $profileImage)
     );
 
-    $this->renderPartial("//users/_main-menu");
+    $this->renderPartial("//users/_main-menu", array(
+        'newMessage' => $newMessage)
+    );
 ?>
 <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
     a

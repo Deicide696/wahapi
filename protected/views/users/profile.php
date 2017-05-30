@@ -36,7 +36,7 @@
                     <ol>
                         <li class="psbody">
                             <div class="psimg">
-                                <!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/1.2.png" width="100px" height="100px"/> -->
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/profile/arbolesWahapi.png"/>
                             </div>
                             <div class="pstext">
                                 <div class="psuser">

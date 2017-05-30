@@ -1818,3 +1818,466 @@ Stack trace:
 REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
 HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
 ---
+2017/05/30 00:39:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 00:40:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 00:40:59 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "..." solicitada. in /Applications/MAMP/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/...')
+#3 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wahapi.com/users/...
+HTTP_REFERER=http://localhost/wahapi.com/users/home
+---
+2017/05/30 00:40:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 00:41:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 00:42:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 00:43:00 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(978): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (978)
+2017/05/30 00:43:02 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(978): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (978)
+2017/05/30 01:18:51 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(980): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (980)
+2017/05/30 01:18:53 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(980): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (980)
+2017/05/30 01:18:54 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(980): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (980)
+2017/05/30 01:18:54 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(980): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (980)
+2017/05/30 01:18:55 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(980): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (980)
+2017/05/30 01:18:55 [error] [php] Undefined variable: newMessage (/Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#1 /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php(6): UsersController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): UsersController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#6 /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php(980): UsersController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionGallery()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/users/gallery
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/users/_main-menu.php (9)
+in /Applications/MAMP/htdocs/wahapi.com/protected/views/Gallery/index.php (6)
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/UsersController.php (980)
+2017/05/30 01:19:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 01:23:28 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 01:23:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 01:27:58 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 01:28:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 01:28:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 01:28:27 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 01:28:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:21:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:21:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:22:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:22:08 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:22:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:22:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:22:42 [error] [php] Undefined variable: response (/Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php:596)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): GroupsController->runAction()
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): GroupsController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): GroupsController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): GroupsController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/groups/searchFriendToRequest?groupId=4&term=ca
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php (596)
+in /Applications/MAMP/htdocs/wahapi.com/index.php (13)
+2017/05/30 02:22:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/30 02:23:00 [error] [php] Undefined variable: response (/Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php:596)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): GroupsController->runAction()
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): GroupsController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): GroupsController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): GroupsController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/groups/searchFriendToRequest?groupId=4&term=ca
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php (596)
+in /Applications/MAMP/htdocs/wahapi.com/index.php (13)
+2017/05/30 02:23:03 [error] [php] Undefined variable: response (/Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php:596)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): GroupsController->runAction()
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): GroupsController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): GroupsController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): GroupsController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/groups/searchFriendToRequest?groupId=4&term=cami
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php (596)
+in /Applications/MAMP/htdocs/wahapi.com/index.php (13)
+2017/05/30 02:23:03 [error] [php] Undefined variable: response (/Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php:596)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): GroupsController->runAction()
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): GroupsController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): GroupsController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): GroupsController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CWebApplication->run()
+REQUEST_URI=/wahapi.com/groups/searchFriendToRequest?groupId=4&term=camilo
+in /Applications/MAMP/htdocs/wahapi.com/protected/controllers/GroupsController.php (596)
+in /Applications/MAMP/htdocs/wahapi.com/index.php (13)

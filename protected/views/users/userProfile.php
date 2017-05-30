@@ -47,14 +47,14 @@
                         <li class="psbody">
                             <div class="psimg">
                                 <?php
-                                    if(Yii::app()->user->getState('userId') === '66')
-                                    {
-                                        echo '<img src="'. Yii::app()->request->baseUrl. '/images/profile/arbolesWahapi.png" width="100px" height="100px"/>';
-                                    }
-                                    else if(Yii::app()->user->getState('userId') === '68')
-                                    {
-                                        echo '<img src="'. Yii::app()->request->baseUrl. '/images/profile/arbolesWahapi.png" width="100px" height="100px"/>';
-                                    }
+//                                    if(Yii::app()->user->getState('userId') === '66')
+//                                    {
+                                        echo '<img src="'. Yii::app()->request->baseUrl. '/images/profile/arbolesWahapi.png" />';
+//                                    }
+//                                    else if(Yii::app()->user->getState('userId') === '68')
+//                                    {
+//                                        echo '<img src="'. Yii::app()->request->baseUrl. '/images/profile/arbolesWahapi.png" width="100px" height="100px"/>';
+//                                    }
                                 ?>
                             </div>
                             <div class="pstext">
