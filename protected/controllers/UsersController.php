@@ -975,9 +975,12 @@ class UsersController extends Controller
         //Get new message
         $newMessage = Messages::model()->findAll(array("condition"=>"FK_receiver = $myId and has_read = 0"));
 
+        $myPics = UserPictures::model()->findAll(array("condition" => "FK_user_id = $myId"));
+
 		$this->render('//Gallery/index', array(
-			    'profileImage' => $profileImage,
-                "newMessage" => $newMessage,)
+			    "profileImage" => $profileImage,
+                "newMessage" => $newMessage,
+                "myPics" => $myPics)
 		);
 	}
 

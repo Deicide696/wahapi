@@ -55,48 +55,14 @@
             </div>
         </div>
         <div id="links">
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_01.jpg" title="Lo importante es la voluntad de salir adelante" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_01.jpg" alt="Lo importante es la voluntad de salir adelante">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_02.jpg" title="Puk" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_02.jpg" alt="Puk">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_03.jpg" title="Breakfast" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_03.jpg" alt="Breakfast">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_04.jpg" title="Angry face" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_04.jpg" alt="Angry face">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_05.jpg" title=":)" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_05.jpg" alt=":)">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_06.jpg" title="Salento" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_06.jpg" alt="Salento">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_07.jpg" title="Neusa" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_07.jpg" alt="Neusa">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_08.jpg" title="Amazon Webservices" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_08.jpg" alt="Amazon Webservices">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_09.jpg" title="Con empanadirris" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_09.jpg" alt="Con empanadirris">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_10.jpg" title="Night" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_10.jpg" alt="Night">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_11.jpg" title="Dante" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_11.jpg" alt="Dante">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_12.jpg" title="Colombia 2 - 0 Uruguay" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_12.jpg" alt="Colombia 2 - 0 Uruguay">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_13.jpg" title="Pereira" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_13.jpg" alt="Pereira">
-            </a>
-            <a href="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_14.jpg" title="Warrior" data-gallery>
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/imgcp_thumb_14.jpg" alt="Warrior">
-            </a>
+            <?php
+                foreach ($myPics as $pic)
+                {
+                    echo "<a href=\"" . Yii::app()->params['path_bucket'] . $pic->path . "\" title=\"Lo importante es la voluntad de salir adelante\" data-gallery>";
+                    echo "<img src=\"" . Yii::app()->params['path_bucket'] . $pic->path . "\" alt=\"Lo importante es la voluntad de salir adelante\" height=\"15%\" width=\"15%\">";
+                    echo "</a>";
+                }
+            ?>
         </div>
     </div>
 </div>
