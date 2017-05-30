@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="326ef209-e1e3-46ce-9910-004e289c69f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/GroupsController.php" afterPath="$PROJECT_DIR$/protected/controllers/GroupsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/UsersController.php" afterPath="$PROJECT_DIR$/protected/controllers/UsersController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/gallery/index.php" afterPath="$PROJECT_DIR$/protected/views/gallery/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/users/index.php" afterPath="$PROJECT_DIR$/protected/views/users/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,24 +22,54 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="982" column="23" lean-forward="false" selection-start-line="982" selection-start-column="17" selection-end-line="982" selection-end-column="23" />
+            <state relative-caret-position="579">
+              <caret line="1421" column="291" lean-forward="false" selection-start-line="1421" selection-start-column="291" selection-end-line="1421" selection-end-column="291" />
               <folding>
-                <element signature="e#6865#7192#0#PHP" expanded="false" />
-                <marker date="1496113482000" expanded="true" signature="7923:8013" ph="SELECT _id,n... " />
+                <element signature="e#6843#7170#0#PHP" expanded="false" />
+                <marker date="1496186565000" expanded="true" signature="7901:7991" ph="SELECT _id,n... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/GroupsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="814" column="29" lean-forward="false" selection-start-line="814" selection-start-column="22" selection-end-line="814" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/users/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/users/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/gallery/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
-              <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+            <state relative-caret-position="718">
+              <caret line="61" column="106" lean-forward="false" selection-start-line="61" selection-start-column="106" selection-end-line="61" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -102,6 +134,7 @@
       <find>actionSearch</find>
       <find>getAllNotifications</find>
       <find>path_bucket</find>
+      <find>profile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,10 +150,8 @@
       <list>
         <option value="$PROJECT_DIR$/protected/models/Users.php" />
         <option value="$PROJECT_DIR$/protected/views/users/_panel-left-user.php" />
-        <option value="$PROJECT_DIR$/protected/views/users/index.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/profile.php" />
         <option value="$PROJECT_DIR$/protected/views/groups/index.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/GroupsController.php" />
         <option value="$PROJECT_DIR$/protected/views/groups/searchGroups.php" />
         <option value="$PROJECT_DIR$/fineuploader/s3.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
@@ -128,8 +159,10 @@
         <option value="$PROJECT_DIR$/protected/views/users/profile.php" />
         <option value="$PROJECT_DIR$/css/profile.css" />
         <option value="$PROJECT_DIR$/protected/views/users/userProfile.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/protected/views/users/index.php" />
         <option value="$PROJECT_DIR$/protected/views/gallery/index.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/GroupsController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/UsersController.php" />
       </list>
     </option>
   </component>
@@ -202,28 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wahapi.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wahapi.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,7 +434,7 @@
       <workItem from="1495922704686" duration="352000" />
       <workItem from="1496015755984" duration="15502000" />
       <workItem from="1496097163687" duration="7755000" />
-      <workItem from="1496180014842" duration="1937000" />
+      <workItem from="1496180014842" duration="3987000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitignore">
       <created>1496097275027</created>
@@ -439,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496103996830</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- View images in gallery">
+      <created>1496182205686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496182205687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43345000" />
+    <option name="totallyTimeSpent" value="45395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1920" height="1076" extended-state="6" />
@@ -478,7 +496,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="- Update fineuploader&#10;- Search groups" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Update fineuploader&#10;- Search groups" />
+    <MESSAGE value="- View images in gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="- View images in gallery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,17 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15720">
-          <caret line="1048" column="37" lean-forward="false" selection-start-line="1048" selection-start-column="24" selection-end-line="1048" selection-end-column="37" />
-          <folding>
-            <element signature="e#6865#7192#0#PHP" expanded="false" />
-            <marker date="1496113482000" expanded="true" signature="7923:8013" ph="SELECT _id,n... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -556,8 +564,8 @@
         <state relative-caret-position="15720">
           <caret line="1048" column="37" lean-forward="false" selection-start-line="1048" selection-start-column="24" selection-end-line="1048" selection-end-column="37" />
           <folding>
-            <element signature="e#6865#7192#0#PHP" expanded="false" />
-            <marker date="1496113482000" expanded="true" signature="7923:8013" ph="SELECT _id,n... " />
+            <element signature="e#6843#7170#0#PHP" expanded="false" />
+            <marker date="1496186565000" expanded="true" signature="7901:7991" ph="SELECT _id,n... " />
           </folding>
         </state>
       </provider>
@@ -748,13 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="847" column="8" lean-forward="true" selection-start-line="847" selection-start-column="8" selection-end-line="847" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/GroupsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <caret line="480" column="0" lean-forward="true" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -772,7 +773,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="83" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,28 +842,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/users/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="28" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="143" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/users/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="64" lean-forward="false" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/users/recovery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -875,17 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="982" column="23" lean-forward="false" selection-start-line="982" selection-start-column="17" selection-end-line="982" selection-end-column="23" />
-          <folding>
-            <element signature="e#6865#7192#0#PHP" expanded="false" />
-            <marker date="1496113482000" expanded="true" signature="7923:8013" ph="SELECT _id,n... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/users/viewFriends.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -894,11 +868,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/users/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/users/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/gallery/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+        <state relative-caret-position="718">
+          <caret line="61" column="106" lean-forward="false" selection-start-line="61" selection-start-column="106" selection-end-line="61" selection-end-column="106" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/GroupsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="814" column="29" lean-forward="false" selection-start-line="814" selection-start-column="22" selection-end-line="814" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/UserProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="1421" column="291" lean-forward="false" selection-start-line="1421" selection-start-column="291" selection-end-line="1421" selection-end-column="291" />
+          <folding>
+            <element signature="e#6843#7170#0#PHP" expanded="false" />
+            <marker date="1496186565000" expanded="true" signature="7901:7991" ph="SELECT _id,n... " />
+          </folding>
         </state>
       </provider>
     </entry>

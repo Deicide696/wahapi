@@ -2623,3 +2623,39 @@ Stack trace:
 REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
 HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
 ---
+2017/05/31 00:10:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/31 00:15:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/31 00:23:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---
+2017/05/31 00:59:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/images/ui-bg_flat_75_ffffff_40x100.png" in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/wahapi.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wahapi.com/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/wahapi.com/css/profile.css
+---

@@ -58,8 +58,8 @@
             <?php
                 foreach ($myPics as $pic)
                 {
-                    echo "<a href=\"" . Yii::app()->params['path_bucket'] . $pic->path . "\" title=\"Lo importante es la voluntad de salir adelante\" data-gallery>";
-                    echo "<img src=\"" . Yii::app()->params['path_bucket'] . $pic->path . "\" alt=\"Lo importante es la voluntad de salir adelante\" height=\"15%\" width=\"15%\">";
+                    echo "<a href=\"" . Yii::app()->params['path_bucket'] . $pic->path . "\" title=\"Imagen\" data-gallery>";
+                    echo "<img src=\"" . Yii::app()->params['path_bucket'] . $pic->path . "\" alt=\"Imagen\" height=\"15%\" width=\"15%\">";
                     echo "</a>";
                 }
             ?>

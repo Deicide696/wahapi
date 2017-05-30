@@ -442,8 +442,11 @@ class GroupsController extends Controller
 				{
 					$userCommentId = $modelComment->FK_user_id;
 
+                    // Get Profile Image (yourself)
+                    $profileImage = self::getProfileImage($modelComment->FK_user_id);
+
 					$userComment = Users::model()->find("_id = $userCommentId");
-					$comments [] = $this->renderPartial("//wallPost/_comment", array('model' => $modelComment, 'userName' => $userComment->name), true);
+					$comments [] = $this->renderPartial("//wallPost/_comment", array('model' => $modelComment, 'userName' => $userComment->name, 'profileImage' => $profileImage), true);
 				}
 			}
 
@@ -457,11 +460,6 @@ class GroupsController extends Controller
 				true
 			);
 		}
-
-		// $this->friendsRequest = self::getFriendRequests($myId);
-		// $this->wallPostNotifications = self::getWallpostNotifications($myId);
-		// $this->groupNotifications = self::getFeedGroupNotifications($myId);
-		// $this->newGroupNotifications = self::getNewGroupNotifications($myId);
 
 		// Get All Notifications
 		self::getAllNotifications($myId);

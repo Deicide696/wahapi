@@ -213,17 +213,17 @@ class UsersController extends Controller
 
                     	if($validation->save())
                     	{
-             				// Yii::import("ext.mailer.*");
+             				 Yii::import("ext.mailer.*");
 
-							// $mail = new PHPMailer();
+							 $mail = new PHPMailer();
 
-							// $mail->setFrom("no-responder@wahapi.com","Wahapi");
-							// $mail->Subject = "Confirmación de registro en Wahapi";
-							// $mail->CharSet = 'UTF-8';
-							// $mail->msgHTML("<h1>Ya estas registrado en Wahapi</h1><p>Para confirmar tu inscripción a Wahapi, ingresa al siguiente a este <a href='http://localhost/wahapi/users/validAccount?user=" . $model->_id . "&code=" . $code . "'>link</a></p>");
-							// $mail->addAddress($model->email, $model->name);
+							 $mail->setFrom("no-responder@wahapi.com","Wahapi");
+							 $mail->Subject = "Confirmación de registro en Wahapi";
+							 $mail->CharSet = 'UTF-8';
+							 $mail->msgHTML("<h1>Ya estas registrado en Wahapi</h1><p>Para confirmar tu inscripción a Wahapi, ingresa al siguiente a este <a href='http://wahapi.com/users/validAccount?user=" . $model->_id . "&code=" . $code . "'>link</a></p>");
+							 $mail->addAddress($model->email, $model->name);
 
-							// $mail->send();
+							 $mail->send();
 
                         	$loginModel->login();
                         }
@@ -696,7 +696,9 @@ class UsersController extends Controller
 			
 			$this->render('//wallPost/viewWallpost',
 				array(
-					'post' => $feed
+                    'profileImage' => $profileImage,
+					'post' => $feed,
+                    'newMessage' => $newMessage
 				)
 			);
 		}
@@ -977,7 +979,7 @@ class UsersController extends Controller
 
         $myPics = UserPictures::model()->findAll(array("condition" => "FK_user_id = $myId"));
 
-		$this->render('//Gallery/index', array(
+		$this->render('//gallery/index', array(
 			    "profileImage" => $profileImage,
                 "newMessage" => $newMessage,
                 "myPics" => $myPics)
@@ -1414,14 +1416,20 @@ class UsersController extends Controller
 
 					if(!empty($lastConversation))
 					{
-						array_push($lastConversation['messages'], array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $this->renderPartial("//messages/_message", array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $modelMessage->content), true)));
+                        // Get Profile Image
+                        $profileImage = self::getProfileImage($creator->FK_id);
+
+						array_push($lastConversation['messages'], array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $this->renderPartial("//messages/_message", array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $modelMessage->content, 'profileImage' => $profileImage), true)));
 					}
 
 					else
 					{
+                        // Get Profile Image
+                        $profileImage = self::getProfileImage($modelFriendConversation->FK_id);
+
 						$lastConversation['idFriendConversation'] = $modelFriendConversation->FK_id;
 						$lastConversation['friendConversation'] = $modelFriendConversation->names . ' ' . $modelFriendConversation->last_names;
-						$lastConversation['messages'] = array(array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $this->renderPartial("//messages/_message", array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $modelMessage->content), true)));
+						$lastConversation['messages'] = array(array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $this->renderPartial("//messages/_message", array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $modelMessage->content, 'profileImage' => $profileImage), true)));
 					}
 				}
 			}
@@ -1457,9 +1465,12 @@ class UsersController extends Controller
 
 				else
 				{
+                    // Get Profile Image
+                    $profileImage = self::getProfileImage($modelFriendConversation->FK_id);
+
 					$lastConversation['idFriendConversation'] = $modelFriendConversation->FK_id;
 					$lastConversation['friendConversation'] = $modelFriendConversation->names . ' ' . $modelFriendConversation->last_names;
-					$lastConversation['messages'] = array(array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $this->renderPartial("//messages/_message", array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $modelMessage->content), true)));
+					$lastConversation['messages'] = array(array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $this->renderPartial("//messages/_message", array('creator' => $creator->names . ' ' . $creator->last_names, 'message' => $modelMessage->content, 'profileImage' => $profileImage), true)));
 				}
 			}
 		}

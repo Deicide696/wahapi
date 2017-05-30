@@ -45,7 +45,7 @@
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/start/play.png" />
             </div>
             <div class="col-lg-10" style="padding-left:0px;">
-                <h2 class="green">CONOCE LA PRIMERA RED SOCIAL</h1>
+                <h1 class="green">CONOCE LA PRIMERA RED SOCIAL</h1>
                 <h4>Para la conservación y protección del planeta</h4>
             </div>
             <div class="col-lg-12">
