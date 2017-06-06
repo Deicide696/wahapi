@@ -523,7 +523,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">Copyright &COPY; Wahapi, Powered by Colombia P&uacute;blica &REG;</p>
+            <p class="text-muted">Copyright &COPY; Wahapi, Powered by Colombia P&uacute;blica &REG; 2013 - 2017</p>
         </div>
     </footer>
 

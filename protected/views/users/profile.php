@@ -51,7 +51,10 @@
         </div>
     </div>
 </div>
-<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">a
+<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+    <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/images/ads/1.jpg"/>
+    <br><br>
+    <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/images/ads/2.jpg"/>
 </div>
 
 <!-- ****************************-->

@@ -706,20 +706,17 @@ class UsersController extends Controller
 
 
 	public function actionRecoveryPassword ()
-	{
-		self::existSession ();
-
+    {
 		// Show layout 'register'
         $this->layout = 'register';
 
         $model = new Users;
-        $loginModel=new LoginForm;
+        $loginModel = new LoginForm;
 
-		if(isset($_POST['Recovery']))
+		if(isset($_POST['LoginForm']))
 		{
-			$model->attributes=$_POST['Users'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->_id));
+            print_r("En construcción...");
+            die();
 		}
 
 		$this->render('recovery',array(

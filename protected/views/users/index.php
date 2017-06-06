@@ -82,7 +82,9 @@
                         <?php echo $form->error($model,'email', array('class' => 'white')); ?>
                     </div>
                     <div class="form-group">
-                        <?php echo CHtml::emailField('reEmail', false ,array('class' => 'form-control', 'placeholder'=>'Vuelve a escribir tu correo')); ?>
+                        <?php //echo CHtml::emailField('reEmail', false ,array('class' => 'form-control', 'placeholder'=>'Vuelve a escribir tu correo')); ?>
+                        <?php echo $form->emailField($model,'reEmail', array('class' => 'form-control', 'placeholder'=>'Vuelve a escribir tu correo')); ?>
+                        <?php echo $form->error($model,'reEmail', array('class' => 'white')); ?>
                     </div>
                     
                     <div class="col-lg-6" style="padding-left:0px; padding-right:7px;">
@@ -142,10 +144,6 @@
 
                     <?php 
                      echo CHtml::submitButton('Registrarse', array('class' => 'btn btn-warning pull-right'));
-                    ?>
-
-                    <?php 
-                        // echo CHtml::submitButton('Registrarse', array('class' => 'btn btn-warning pull-right')); 
                     ?>
 
                     <?php $this->endWidget(); ?>

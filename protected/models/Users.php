@@ -31,6 +31,8 @@
  */
 class Users extends CActiveRecord
 {
+    public $reEmail;
+
 	/**
 	 * @return string the associated database table name
 	 */
@@ -51,7 +53,8 @@ class Users extends CActiveRecord
 			array('cellphone, pets, childs, level, accept_terms, email_validation, hide_age, hide_email', 'numerical', 'integerOnly'=>true),
 			array('email, pwd, name, last_name, country, city, profile_image, emotional_status', 'length', 'max'=>255),
 			array('accept_terms','boolean'),
-			array('email', 'email','message'=>"El formato del email es incorrecto"),
+            array('reEmail', 'compare', 'compareAttribute'=>'email', 'operator'=>'==', 'message'=>'Ingrese nuevamente el correo. No coincide con el correo de confirmación'),
+            array('email', 'email','message'=>"El formato del email es incorrecto"),
         	array('email', 'unique','message'=>'Ya existe un usuario registrado con este correo'),
 			array('accept_terms', 'required', 'requiredValue' => 1, 'message' => 'Debe aceptar terminos y condiciones para poder registrarse'),
 			array('genre', 'length', 'max'=>10),
