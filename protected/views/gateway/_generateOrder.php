@@ -57,21 +57,54 @@
     </div>
 </div>
 <div class="col-lg-12">
-    <form role="form" action="https://stg.gateway.payulatam.com/ppp-web-gateway" method="POST">
-    	<input type="text" id="merchantId" style="display:none;" value="500238">
-        <input type="text" id="ApiKey" style="display:none;" value="6u39nqhq8ftd0hlvnjfs66eh8c">
-        <input type="text" id="referenceCode" style="display:none;" value="whtr01">
-        <input type="text" id="accountId" style="display:none;" value="500538">
-        <input type="text" id="description" style="display:none;" value="Test PAYU">
-        <input type="text" id="amount" style="display:none;" value="21000">
-        <input type="text" id="tax" style="display:none;" value="0">
-        <input type="text" id="taxReturnBase" style="display:none;" value="0">
-        <input type="text" id="currency" style="display:none;" value="COP">
-      	<input type="text" id="signature" style="display:none;" value="be2f083cb3391c84fdf5fd6176801278">
-        <input type="text" id="test" style="display:none;" value="1">
-        <input type="text" id="buyerEmail" style="display:none;" value="test@test.com">
-      	<button type="submit" class="btn btn-default">Adoptar</button>
-    </form>
+
+    <?php $form=$this->beginWidget('CActiveForm', array(
+        'id'=>'login-form',
+        'enableClientValidation'=>true,
+        'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+        ),
+    )); ?>
+
+        <div class="form-group">
+            <?php echo $form->labelEx($paymentModel,'primaryAccountNumber'); ?>
+            <?php echo $form->textField($paymentModel,'primaryAccountNumber', array('class' => 'form-control', 'placeholder'=>'Número de la Tarjeta de Credito')); ?>
+            <?php echo $form->error($paymentModel,'primaryAccountNumber'); ?>
+        </div>
+
+        <div class="form-group">
+            <?php echo $form->labelEx($paymentModel,'cardHolderName'); ?>
+            <?php echo $form->textField($paymentModel,'cardHolderName', array('class' => 'form-control', 'placeholder'=>'Nombre')); ?>
+            <?php echo $form->error($paymentModel,'cardHolderName'); ?>
+        </div>
+
+        <div class="form-group">
+            <?php echo $form->labelEx($paymentModel,'expirationMonth'); ?>
+            <?php echo $form->dropDownList($paymentModel,'expirationMonth', array('01'=>'01', '02'=>'02', '03' => '03', '04' => '04', '05' => '05', '06' => '06', '07' => '07', '08' => '08', '09' => '09', '10' => '10', '11' => '11', '12' => '12'), array('class'=>'form-control')); ?>
+            <?php echo $form->error($paymentModel,'expirationMonth'); ?>
+        </div>
+
+        <div class="form-group">
+            <?php echo $form->labelEx($paymentModel,'expirationYear'); ?>
+            <?php echo $form->dropDownList($paymentModel,'expirationMonth', array('2017'=>'2017', '2018'=>'2018', '2019' => '2019', '2020' => '2020', '2021' => '2021', '2022' => '2022', '2023' => '2023', '2024' => '2024', '2025' => '2025', '2026' => '2026', '2027' => '2027', '2028' => '2028'), array('class'=>'form-control')); ?>
+            <?php echo $form->error($paymentModel,'expirationYear'); ?>
+        </div>
+
+        <div class="form-group">
+            <?php echo $form->labelEx($paymentModel,'cvc'); ?>
+            <?php echo $form->textField($paymentModel,'cvc', array('class' => 'form-control', 'placeholder'=>'CVC')); ?>
+            <?php echo $form->error($paymentModel,'cvc'); ?>
+        </div>
+
+        <div class="form-group">
+            <?php echo $form->hiddenField($paymentModel,'amount', array('value' => $totalPrice)); ?>
+        </div>
+
+        <div class="row buttons">
+            <?php echo CHtml::submitButton('Procesar pago', array('class' => 'btn btn-warning')); ?>
+        </div>
+
+    <?php $this->endWidget(); ?>
 </div>
 <script>
 function conPuntos(valor) {

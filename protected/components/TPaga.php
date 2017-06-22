@@ -1,18 +1,11 @@
 <?php
 
-namespace common\components;
-
-use Yii;
-use yii\base\Component;
-use GuzzleHttp\Client;
-
-class TPaga extends Component
+class TPaga extends CApplicationComponent
 {
 	public function create_tpaga_customer($firstName, $lastName, $email, $phone) {
 		$customer_data = [ 
 				'firstName' => ($firstName),
 				'lastName' => ($lastName),
-				// 'gender' => ($_POST["gender"]),
 				'email' => ($email),
 				'phone' => ($phone) 
 		];
@@ -34,7 +27,7 @@ class TPaga extends Component
 		
 		$_SESSION ["user_cc"] = $json_response;
 	}
-	public function create_charge($taxAmount, $amount, $creditCard, $currency = 'COP') {
+	public function create_charge($taxAmount, $amount = 0, $creditCard, $currency = 'COP') {
 		$json_response = $this->tpaga_api_post ( "/api/charge/credit_card", [ 
 				'taxAmount' => $taxAmount,
 				'amount' => intval ( $amount ),
@@ -63,8 +56,11 @@ class TPaga extends Component
 		return $json_response;
 	}
 	private function tpaga_api_post($url, $data, $expected_http_codes) {
-		$client = new Client ( [ 
-				'base_uri' => Yii::$app->params ['tpaga_url'],
+
+        Yii::import('ext.guzzle.*');
+
+	    $client = new Client ( [
+				'base_uri' => "https://sandbox.tpaga.co",
 				'timeout' => 30,
 				'headers' => [ 
 						'Content-Type' => 'application/json' 
@@ -78,7 +74,7 @@ class TPaga extends Component
 		try {
 			$response = $client->post ( $url, [ 
 					'auth' => [ 
-							Yii::$app->params ['private_api_key_tpaga'],
+							"c507thtjd5prg91rvjtet9g3ns2egura",
 							'' 
 					],
 					'json' => $data 
@@ -107,7 +103,7 @@ class TPaga extends Component
 	}
 	private function unsafe_tpaga_api_post($url, $data, $expected_http_codes) {
 		$client = new Client ( [ 
-				'base_uri' => Yii::$app->params ['tpaga_url'],
+				'base_uri' => "https://sandbox.tpaga.co",
 				'timeout' => 30,
 				'headers' => [ 
 						'Content-Type' => 'application/json' 
@@ -118,7 +114,7 @@ class TPaga extends Component
 		
 		$response = $client->post ( $url, [ 
 				'auth' => [ 
-						Yii::$app->params ['private_api_key_tpaga'],
+						"c507thtjd5prg91rvjtet9g3ns2egura",
 						'' 
 				],
 				'json' => $data 
@@ -154,7 +150,7 @@ class TPaga extends Component
 		 * curl_close($process);
 		 * return $response;
 		 */
-		$client = new Client ( [ 
+		$client = new Client ( [
 				'base_uri' => Yii::$app->params ['tpaga_url'],
 				'timeout' => 30,
 				'headers' => [ 

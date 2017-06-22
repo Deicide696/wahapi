@@ -100,6 +100,9 @@ return array(
 	       	'secret'=>'9cf26a1ab63eec8061f1',
 	       	'appId'=>'73220',
      	),
+        'tpaga' => array(
+            'class'=>'TPaga'
+        ),
 	),
 
 	// application-level parameters that can be accessed

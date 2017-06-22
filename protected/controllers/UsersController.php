@@ -841,14 +841,31 @@ class UsersController extends Controller
 
 			$reserveModel = Reserves::model()->find(array("condition"=>"id = $reserveId"));
 
+			$paymentModel = new PaymentForm();
+
 			$this->renderPartial('//gateway/_generateOrder', 
 				array(
 					'model' => $reserveModel,
+                    'paymentModel' => $paymentModel,
 					'totalPrice' => $totalPrice,
 					'treesQuantity' => $quantityTrees
 				)
 			);
 		}
+
+		elseif (isset($_POST['PaymentForm']['primaryAccountNumber']))
+        {
+//            print_r("primaryAccountNumber");die();
+
+            $test = Yii::app()->tpaga->create_tpaga_customer("Wahapi", "Pereira", "info@wahapi.com", "3204511163");
+
+            print_r($test); die();
+        }
+
+        else
+        {
+            print_r("Esto no debería pasar");die();
+        }
 	}	
 
 	/**
