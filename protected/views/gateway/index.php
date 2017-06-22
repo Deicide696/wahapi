@@ -33,7 +33,7 @@
                     display: inline-block;
                     width: 178px;
                     height: 186px;
-                    background: url(/wahapi/images/compra_arboles.png) left top no-repeat;
+                    background: url(/wahapi.com/images/compra_arboles.png) left top no-repeat;
                 }
             </style>
             <div class="col-md-12" style="padding-top:50px;" disabled>

@@ -781,6 +781,7 @@ class UsersController extends Controller
 			{
 				$reservesModel = Reserves::model()->findAll(array("condition"=>"is_full = 0"));
 
+
 				$reserves = array();
 
 				foreach ($reservesModel as $reserve)
